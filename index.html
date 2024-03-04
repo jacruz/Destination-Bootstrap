@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Destination</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="menu navbar navbar-expand-md navbar-light py-3 px-4 fixed-top">
+            <div class="container-fluid">
+                <a class="display-6 text-decoration-none fw-bold" href="#">Destination</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="fa fa-reorder text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end py-5 py-md-0" id="mynavbar">
+                    <ul class="navbar-nav align-items-center py-5 py-md-0 gap-3 gap-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 text-primary" href="">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary btn-xl btn-round text-light" type="button">Sign up</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container-md">
+                <div class="bg-img rounded-md-lg mt-5">
+                    <!--Text banner-->
+                    <div class="row me-4">
+                        <div class="col-md-6 ms-md-5 mx-3 p-sm-3">
+                            <h1 class="display-5 mt-5 pt-sm-5 mb-2 fw-bolder text-light">Explore the World, one journey at a time</h1>
+                            <p class="text-light">Discover new destinations, plan your perfect trip, and book with easy on Destination</p>
+                        </div>
+                    </div>
+                    <!--Search-->
+                    <div class="row me-2 py-5 pt-md-0">
+                        <div class="col-md-10 mx-md-5 mx-2 p-sm-3">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link py-md-3 px-md-5 text-dark active" data-bs-toggle="tab" href="#s-t-1">One way</a>  
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link py-md-3 px-md-5 text-dark" data-bs-toggle="tab" href="#s-t-2">Round trip</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link py-md-3 px-md-5 text-dark" data-bs-toggle="tab" href="#s-t-3">Multi-city</a>
+                                </li>
+                            </ul>
+                              
+                              <!-- Tab panes -->
+                             <div class="tab-content bg-white p-md-4 p-3">
+                                <div class="tab-pane container active" id="s-t-1">
+                                    <div class="row">
+                                        <div class="col mx-md-1">
+                                            <label >From</label>
+                                            <input class="form-control form-select" list="browsers" name="browser" id="browser">
+                                            <datalist id="browsers">
+                                                <option value="Edge">
+                                                <option value="Firefox">
+                                                <option value="Chrome">
+                                                <option value="Opera">
+                                                <option value="Safari">
+                                            </datalist>
+                                        </div>
+                                        <div class="col mx-md-1">
+                                            <label >To</label>
+                                            <input class="form-control form-select" list="browsers" name="browser" id="browser">
+                                            <datalist id="browsers">
+                                                <option value="Edge">
+                                                <option value="Firefox">
+                                                <option value="Chrome">
+                                                <option value="Opera">
+                                                <option value="Safari">
+                                            </datalist> 
+                                        </div>
+                                        <div class="col-lg mx-md-1 py-md-0 py-2">
+                                            <label >Expected Date</label>
+                                            <input id="startDate" class="form-control text-" type="date" />
+                                        </div>
+                                        <div class="col-lg mx-md-1 d-flex flex-column align-self-end ps-md-5 pt-2">
+                                            <button class="btn btn-primary text-light">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane container fade" id="s-t-2">...</div>
+                                <div class="tab-pane container fade" id="s-t-3">...</div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-4">
+            <div class="container">
+                <div class="mt-1">
+                    <div class="row  mt-5 pt-sm-5 mb-2">
+                        <div class="col-8 px-0">
+                            <h1 class="display-5 fw-bolder">Explore top destinations</h1>
+                            <p class="">Check out some incredible destinations.</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-end gap-3 px-0">
+                            <button type="button" class="btn btn btn-outline-secondary btn-lg"><</button>
+                            <button type="button" class="btn btn-primary btn-lg">></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 py-2">
+                            <div class="card rounded-lg">
+                                <img class="card-img-top pt-3 px-3" src="assets/images/travel-1.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">The Vatican City</h5>
+                                    <p class="card-text"><i class="fa fa-map-marker text-primary mx-1"></i>Rome, Italy</p>
+                                    <div class="d-flex py-2 justify-content-between">
+                                        <p><span class="fw-bolder">$350/</span><span class="text-black-50">person</span></p>
+                                        <a href="#" class="btn btn-primary text-light">Book now</a>
+                                    </div>
+                                </div>
+                                <div class="card-img-overlay d-flex align-items-start justify-content-end">
+                                    <span class="badge bg-light text-dark py-3 px-4 m-2"><i class="fa fa-star text-warning mx-1"></i>4.5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 py-2">
+                            <div class="card rounded-lg">
+                                <img class="card-img-top pt-3 px-3" src="assets/images/travel-2.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Buckingham Palace</h5>
+                                    <p class="card-text"><i class="fa fa-map-marker text-primary mx-1"></i>London, England</p>
+                                    <div class="d-flex py-2 justify-content-between">
+                                        <p><span class="fw-bolder">$450/</span><span class="text-black-50">person</span></p>
+                                        <a href="#" class="btn btn-primary text-light">Book now</a>
+                                    </div>
+                                </div>
+                                <div class="card-img-overlay d-flex align-items-start justify-content-end">
+                                    <span class="badge bg-light text-dark py-3 px-4 m-2"><i class="fa fa-star text-warning mx-1"></i>4.5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 py-2">
+                            <div class="card rounded-lg">
+                                <img class="card-img-top pt-3 px-3" src="assets/images/travel-4.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">United Arab Emirates</h5>
+                                    <p class="card-text"><i class="fa fa-map-marker text-primary mx-1"></i>Dubai</p>
+                                    <div class="d-flex py-2 justify-content-between">
+                                        <p><span class="fw-bolder">$350/</span><span class="text-black-50">person</span></p>
+                                        <a href="#" class="btn btn-primary text-light">Book now</a>
+                                    </div>
+                                </div>
+                                <div class="card-img-overlay d-flex align-items-start justify-content-end">
+                                    <span class="badge bg-light text-dark py-3 px-4 m-2"><i class="fa fa-star text-warning mx-1"></i>4.5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-4">
+            <div class="container">
+                <div class="mt-1">
+                    <div class="row mt-5 pt-sm-5 mb-2">
+                        <div class="col">
+                            <p class="text-warning">What we offer</p>
+                            <h1 class="display-5 fw-bolder">Check Out A Few Advantages Of Joining Us</h1>
+                        </div>
+                    </div>
+                    <div class="row pt-md-5 flex-md-row-reverse">
+                        <div class="col-md d-flex align-items-center">
+                            <img src="assets/images/camera-1.jpg" class="img-thumbnail" alt="test-img"> 
+                        </div>
+                        <div class="col-md pt-4 pt-md-0">
+                            <span class="badge bg-success text-light py-3 px-4">01</span>
+                            <h4 class="pt-3 pb-2 fw-bold">Best deals and Discount</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quaerat hic amet recusandae cum 
+                                obcaecati accusantium expedita fuga debitis delectus fugiat eos, 
+                                unde quam non maxime, reprehenderit fugit tempora sequi.</p>
+                            
+                            <span class="badge bg-primary text-light py-3 px-4">02</span>
+                            <h4 class="pt-3 pb-2 fw-bold">Reliable and Safe Travel</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quaerat hic amet recusandae cum 
+                                obcaecati accusantium expedita fuga debitis delectus fugiat eos, 
+                                unde quam non maxime, reprehenderit fugit tempora sequi.</p>
+                            
+                            <span class="badge bg-warning text-light py-3 px-4">03</span>
+                            <h4 class="pt-3 pb-2 fw-bold">Hassle-Free Booking</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quaerat hic amet recusandae cum 
+                                obcaecati accusantium expedita fuga debitis delectus fugiat eos, 
+                                unde quam non maxime, reprehenderit fugit tempora sequi.</p>
+                            <div class="d-flex justify-content-center justify-content-md-start pt-3">
+                                <button type="button" class="btn btn-primary text-light py-3 px-5">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-4">
+            <div class="container">
+                <div class="mt-1">
+                    <div class="row my-5 pt-sm-5">
+                        <div class="col-8 px-0">
+                            <h1 class="display-5 fw-bolder">See Why Tourists Choose Us!</h1>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-end gap-3 px-0">
+                            <button type="button" class="btn btn btn-outline-secondary btn-lg"><</button>
+                            <button type="button" class="btn btn-primary btn-lg">></button>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col d-flex align-items-center d-none d-md-block">
+                            <img src="assets/images/Notre-dame.jpg" class="img-thumbnail" alt="test-img"> 
+                        </div>
+                        <div class="col d-flex align-items-center">
+                            <div>
+                                <div class="row">
+                                    <i class="fa fa-quote-left text-warning  display-4 mx-1"></i>
+                                </div>
+                                <div class="row">
+                                    <p class="ps-5">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, sed voluptas. Porro, veritatis nihil. Deleniti nam inventore repudiandae, voluptatem delectus alias odio? Aut, molestiae vitae? Voluptates, voluptatibus. Sed, accusantium facilis.
+                                    </p>
+                                </div>
+                                <div class="row text-end">
+                                    <i class="fa fa-quote-right text-warning  display-4 mx-1"></i>
+                                </div>
+                                <div class="row ps-5">
+                                    <div class="col-1 d-flex align-items-start">
+                                        <i class="fa fa-minus text-warning display-6 mx-1"></i>
+                                    </div>
+                                    <div class="col pt-1">
+                                        <h5 class="ps-1 fw-bold">Thomas Edison</h5>
+                                        <p class="ps-1 text-black-50">Los Angeles, CA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="deals">
+            <div class="container-fluid  px-md-4">
+                <div class="mt-1 bg-primary rounded-md-lg">
+                    <div class="row my-5 pt-5 pb-3 justify-content-center me-0">
+                        <div class="col-md-8 text-center text-light">
+                            <h2 class="fw-bold">Prepare yourself and lets explore the beauty of the world</h2>
+                            <p>We have lots of exclusive deals for you</p>
+                            <button class="btn btn-warning text-light py-3 px-5 my-3 ">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="">
+        <div class="container-fluid">
+            <div class="row px-4 py-5">
+                <div class="col-md-4 pb-5 pb-md-0 text-center text-md-start">
+                    <h1 class="display-6 fw-bolder">Destination</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore sed sunt, maxime reiciendis.</p>
+                    <div class="d-flex gap-2 justify-content-center justify-content-md-start">
+                        <button class="btn btn-primary rounded-circle">
+                            <i class="fa fa-facebook text-light mx-1"></i>
+                        </button>
+                        <button class="btn btn-primary rounded-circle">
+                            <i class="fa fa-instagram text-light"></i>
+                        </button>
+                        <button class="btn btn-primary rounded-circle">
+                            <i class="fa fa-linkedin text-light "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="fw-bolder">Home</h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Destinations</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Tours</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h6 class="fw-bolder">About us</h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">About Destinations</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h6 class="fw-bolder">Partner with us</h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Partnership</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Affiliate programs</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Community</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h6 class="fw-bolder">Support</h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Help center</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Privacy Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-dark" href="#">Terms of service</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-dark text-light text-center py-4">
+                <p class="m-0"><small>Powered by <a href="../../personalCV/index.html">Jonnathan Cruz</a></small></p>
+                <p class="m-0"><small>Inspired by <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/089818166625295.642161639126d.png">GlobeTrotter</a></small></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

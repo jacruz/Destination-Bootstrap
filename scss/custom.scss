@@ -1,0 +1,100 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$primary: #1aabbe;
+$font-size-base: 1.1rem;
+$gray-400-transparent: #ced4daa8;
+
+$body-bg: #dee2e6;
+
+@import "../assets/vendor/bootstrap/scss/bootstrap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css";
+
+.banner {
+    .container-fluid{
+        padding: 0;
+    }
+
+    .bg-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/polynesia-1.jpg");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .nav-link{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: $gray-400-transparent;
+        border-color: transparent;
+        &.active{
+            background-color: $yellow;
+        }
+    }
+
+    .nav-tabs{
+        border-bottom: 0;
+    }
+    
+    .tab-content{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+//Buttons
+.btn-round{
+    border-radius: 30px;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
+
+//menu Nav
+.menu.navbar{
+    background-color: $light;
+}
+.menu .nav-link.active{
+    font-weight: 700;
+    border-bottom: 2px solid $primary;
+}
+
+.card-img-top{
+    border-radius: 2rem;
+}
+
+.rounded-md-lg{
+    border-radius: 0;
+}
+.rounded-lg{
+    border-radius: 20px;
+}
+
+.deals {
+    .container-fluid{
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner{
+        padding: 3rem 0 0;
+        margin: 3rem 0 0;
+
+        .tab-content{
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        
+        .nav-link{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
+
+    .rounded-md-lg{
+        border-radius: 20px;
+    }
+}
