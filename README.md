@@ -10,7 +10,7 @@ Y aquí puedes ver [todo mi portafolio!!!](https://jonnathan.site) -> Ready to R
 
 ## Instalación
 
-Solo descargar y navegar al index.html de la raíz (no requiere apache). Para realizar cambios en hojas de estilo Sass se debe contar con el entorno de compilación Sass.
+Solo descargar y navegar al index.html de la raíz (no requiere apache). Para realizar cambios en hojas de estilo Sass se debe contar con el entorno de compilación Sass, ejecutar ```sass --watch scss:css```.
 
 ## Screenshots
 
